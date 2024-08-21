@@ -12,4 +12,4 @@
 { eyeColor: { $nin: ["green", "blue"] } } // $nin matcha valori che non sono uguali a quello specifico array  
 
 {company: "FITCORE"}
-Project {email:1, _id:0}
+Project {email:1, _id:0} = 1 result
