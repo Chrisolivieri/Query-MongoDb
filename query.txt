@@ -1,0 +1,15 @@
+{isActive:true} = 51 results
+
+{ "age": { "$gt": 26 } } = 54 results // $gt matcha valori che sono maggiori di un specifico valore
+
+{ "age": { "$gt": 26, "$lte": 30 } } = 19 results // $gte matcha valori che sono maggiori o uguali ad uno specifico valore
+//$lte matcha valori che sono minori o uguale ad uno specifico valore
+
+{ "eyeColor": { "$in": ["blue", "brown"] } } = 66 results //$in matcha valori specifici in un array
+
+{eyeColor: {$ne: "green"}} = 66 results // $ne matcha valori che non sono uguali a quello specifico valore
+
+{ eyeColor: { $nin: ["green", "blue"] } } // $nin matcha valori che non sono uguali a quello specifico array  
+
+{company: "FITCORE"}
+Project {email:1, _id:0}
